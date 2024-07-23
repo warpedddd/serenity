@@ -224,21 +224,21 @@ getgenv().Serenity = {
 -- // Table Checker // --
 local Table = getgenv().Serenity
 if not Table then
-    error("Serenity:configuration is missing.")
+    error("Serenity configuration is missing.")
 end
 
 if not Table['Start Up'] then
-    error("'Start Up' configuration is missing in Serenity:")
+    error("'Start Up' configuration is missing in Serenity")
 end
 
 if not Table['Camlock'] then
-    error("'Camlock' configuration is missing in Serenity:")
+    error("'Camlock' configuration is missing in Serenity")
 end
 
 if not Table['Silent Aim'] then
-    error("'Silent Aim' configuration is missing in Serenity:")
+    error("'Silent Aim' configuration is missing in Serenity")
 end
 
 if not Table['ESP'] then
-    error("'ESP' configuration is missing in Serenity:")
+    error("'ESP' configuration is missing in Serenity")
 end
